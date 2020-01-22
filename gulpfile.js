@@ -33,7 +33,6 @@ const styleFiles = [
    './app/css/link/articlmodal/simple.css',
    './app/bower/slick-carousel/slick/slick.css',
    './app/bower/slick-carousel/slick/slick-theme.css',
-   './app/bower/css-hamburgers/dist/hamburgers.css',
    './app/css/main.scss',
    './app/css/media.scss'
 ]
