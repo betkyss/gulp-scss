@@ -29,10 +29,10 @@ const fontsFiles = [
 //Порядок подключения css файлов
 const styleFiles = [
    './app/bower/bootstrap/dist/css/bootstrap.css',
+   './app/css/link/articlmodal/jquery.arcticmodal-0.3.css',
    './app/css/link/articlmodal/simple.css',
    './app/bower/slick-carousel/slick/slick.css',
    './app/bower/slick-carousel/slick/slick-theme.css',
-   './app/css/link/articlmodal/jquery.arcticmodal-0.3.css',
    './app/bower/css-hamburgers/dist/hamburgers.css',
    './app/css/main.scss',
    './app/css/media.scss'
