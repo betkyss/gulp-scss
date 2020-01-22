@@ -1,0 +1,17 @@
+//ЛОКАЛЬНЫЙ ИМПОРТ
+@import '../bower/css-hamburgers/_sass/hamburgers/hamburgers.scss';
+//СИСТЕМНЫЙ ИМПОРТ
+@import 'mixins';
+@import 'variables';
+
+//СИСТЕМНЫЕ СТИЛИ
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+//СТИЛИ САЙТА
