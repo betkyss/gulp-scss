@@ -28,6 +28,7 @@ const fontsFiles = [
 
 //Порядок подключения css файлов
 const styleFiles = [
+   './app/css/reset.css',
    './app/bower/bootstrap/dist/css/bootstrap.css',
    './app/css/link/articlmodal/jquery.arcticmodal-0.3.css',
    './app/css/link/articlmodal/simple.css',
