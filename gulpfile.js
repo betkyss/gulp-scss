@@ -116,7 +116,7 @@ gulp.task('watch', () => {
    });
    gulp.watch('./app/fonts/**/*', gulp.series('fonts'))
 
-   gulp.watch('./app/img/**', gulp.series('compress'))
+   gulp.watch('./app/img/**/*{png, jpg, svg, webp}', gulp.series('compress'))
    //Следить за файлами со стилями с нужным расширением
    gulp.watch('./app/css/**/*.{scss, css}', gulp.series('styles'))
    //Следить за JS файлами
