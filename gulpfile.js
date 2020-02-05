@@ -23,11 +23,13 @@ const font = require('gulp-font')
 
 
 const fontsFiles = [
-   './app/fonts/**/*'
+   './app/bower/components-font-awesome/webfonts/*',
+   './app/fonts/**/*',
 ]
 
 //Порядок подключения css файлов
 const styleFiles = [
+   './app/css/fonts.css',
    './app/css/reset.css',
    './app/bower/bootstrap/dist/css/bootstrap.css',
    './app/css/link/articlmodal/jquery.arcticmodal-0.3.css',
